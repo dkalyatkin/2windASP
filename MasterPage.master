@@ -1,0 +1,226 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="slider.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style6 {
+            width: 128px;
+        }
+        .auto-style9 {
+            width: 209px;
+        }
+        .auto-style12 {
+            width: 296px;
+        }
+        .auto-style14 {
+            width: 211px;
+        }
+        #form1 {
+            height: 417px;
+        }
+        .auto-style16 {
+            height: 36px;
+            width: 155px;
+        }
+        .auto-style18 {
+            height: 36px;
+            width: 203px;
+        }
+        .auto-style23 {
+            height: 7px;
+            background-color: #A2CE5B;
+        }
+        .auto-style24 {
+            height: 36px;
+            width: 381px;
+        }
+        .auto-style25 {
+            height: 36px;
+            width: 199px;
+        }
+        .auto-style26 {
+            height: 36px;
+            width: 437px;
+        }
+        .auto-style27 {
+            height: 36px;
+            width: 391px;
+        }
+        .auto-style28 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            width: 386px;
+        }
+        .auto-style29 {
+            width: 306px;
+        }
+        .auto-style30 {
+            width: 386px;
+        }
+        .auto-style31 {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>    
+           
+        <form id="form1" runat="server">
+           
+        <table align="center" style="width: 100%;">
+            <tr>
+                <td style="width: 100%">
+                    <hr class="auto-style23" style="background-color: #A2CE5B; color: #A2CE5B;" />
+                </td>
+            </tr>
+        </table>
+        <table style="width:80%;" align="center">
+            <tr>
+                <td class="auto-style6" rowspan="3">
+                    <a href="index.aspx"><img alt="" src="images/logo_128.jpg" border="0" /></a></td>
+                <td class="auto-style9" style="font-family: Verdana; font-size: large; font-weight: bold; text-align: center;">ВТОРОЕ ДЫХАНИЕ</td>
+                <td class="auto-style14" style="font-family: Verdana; font-size: medium; font-weight: bold; text-align: center;">+7 985 282 01 81</td>
+                <td class="auto-style12" rowspan="3" style="text-align: center">
+                    <asp:ImageButton ID="ImageButton1" runat="server" BackColor="#A2CE5B" ImageUrl="~/images/button_help_small_2.png" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style9" style="font-family: Verdana; font-size: small; font-weight: bold; text-align: center; vertical-align: bottom;">НЕКОММЕРЧЕСКОЕ</td>
+                <td class="auto-style14" rowspan="2" style="text-align: center">
+                    <asp:Button ID="Button1" runat="server" BackColor="#FFBD35" Font-Bold="True" Font-Names="Verdana" Height="35px" Text="Обратная связь" Width="173px" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style9" style="font-family: Verdana; font-size: small; font-weight: bold; text-align: center">ПАРТНЕРСТВО</td>
+            </tr>
+        </table>
+        <table align="center" style="width: 80%; text-align: center; border-spacing: 0px; border-collapse: collapse;" border="0" >
+            <tr>
+                <td class="auto-style26" style="background-color: #E74424; text-align: center; border-right-style: solid; border-right-width: 1px; border-right-color: #FFFFFF;">
+                    <asp:Button ID="Button2" runat="server" BackColor="#E74424" Font-Bold="True" Font-Names="Verdana" Font-Size="Medium" ForeColor="White" Text="О нас" Width="79px" BorderStyle="None" onmouseover="this.style.backgroundColor='#FFBD35'" onmouseout="this.style.backgroundColor='#E74424'" OnClick="Button2_Click" />
+                </td>
+                <td class="auto-style27" style="background-color: #E74424; text-align: center; border-right-style: solid; border-right-width: 1px; border-right-color: #FFFFFF;">
+                    <asp:Button ID="Button3" runat="server" BackColor="#E74424" Font-Bold="True" Font-Names="Verdana" Font-Size="Medium" ForeColor="White" Text="Проекты и программы" Width="227px" BorderStyle="None" onmouseover="this.style.backgroundColor='#FFBD35'" onmouseout="this.style.backgroundColor='#E74424'" />
+                </td>
+                <td class="auto-style24" style="background-color: #E74424; text-align: center; border-right-style: solid; border-right-width: 1px; border-right-color: #FFFFFF;">
+                    <asp:Button ID="Button4" runat="server" BackColor="#E74424" Font-Bold="True" Font-Names="Verdana" Font-Size="Medium" ForeColor="White" Text="Как вы можете помочь" Width="233px" BorderStyle="None" onmouseover="this.style.backgroundColor='#FFBD35'" onmouseout="this.style.backgroundColor='#E74424'" OnClick="Button4_Click" />
+                </td>
+                <td class="auto-style25" style="background-color: #E74424; text-align: center; border-right-style: solid; border-right-width: 1px; border-right-color: #FFFFFF;">
+                    <asp:Button ID="Button5" runat="server" BackColor="#E74424" Font-Bold="True" Font-Names="Verdana" Font-Size="Medium" ForeColor="White" Text="Попросить о помощи" Width="223px" BorderStyle="None" onmouseover="this.style.backgroundColor='#FFBD35'" onmouseout="this.style.backgroundColor='#E74424'" />
+                </td>
+                <td class="auto-style18" style="background-color: #E74424; text-align: center; border-right-style: solid; border-right-width: 1px; border-right-color: #FFFFFF;">
+                    <asp:Button ID="Button6" runat="server" BackColor="#E74424" Font-Bold="True" Font-Names="Verdana" Font-Size="Medium" ForeColor="White" Text="Новости" Width="126px" BorderStyle="None" onmouseover="this.style.backgroundColor='#FFBD35'" onmouseout="this.style.backgroundColor='#E74424'" OnClick="Button6_Click" />
+                </td>
+                <td class="auto-style16" style="background-color: #E74424;">
+                    <asp:TextBox ID="TextBox1" runat="server" Font-Names="Verdana" Width="81px">Поиск</asp:TextBox>
+                </td>
+            </tr>
+            </table>
+        <div class="wrapper">
+      <img src="images/img1.jpg">
+      <img src="images/img2.jpg">
+      <img src="images/img3.jpg">
+      <img src="images/img4.jpg"> 
+    </div>
+    
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <table align="center" style="width: 80%;">
+                <tr>
+                    <td style="width: 80%">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+            <br />
+            <table style="width:80%;" align="center">
+                <tr>
+                    <td class="auto-style29">&nbsp;</td>
+                    <td class="auto-style28">Мы в соцсетях</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style29">
+                        <asp:LinkButton ID="LinkButton1" runat="server">О нас</asp:LinkButton>
+                    </td>
+                    <td class="auto-style30">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style29">
+                        <asp:LinkButton ID="LinkButton2" runat="server">Мы помогаем</asp:LinkButton>
+                    </td>
+                    <td class="auto-style30">
+                        <asp:LinkButton ID="LinkButton7" runat="server">Сделать пожертвование</asp:LinkButton>
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style29">
+                        <asp:LinkButton ID="LinkButton3" runat="server">Как вы можете помочь</asp:LinkButton>
+                    </td>
+                    <td class="auto-style30">
+                        <asp:LinkButton ID="LinkButton8" runat="server">Отчёты о расходовании пожертвований</asp:LinkButton>
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style29">
+                        <asp:LinkButton ID="LinkButton4" runat="server">Предстоящие события</asp:LinkButton>
+                    </td>
+                    <td class="auto-style30">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style29">
+                        <asp:LinkButton ID="LinkButton5" runat="server">Прошедшие события</asp:LinkButton>
+                    </td>
+                    <td class="auto-style30">&nbsp;</td>
+                    <td>
+                        <asp:LinkButton ID="LinkButton10" runat="server">Политика обработки персональных данных</asp:LinkButton>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style29">
+                        <asp:LinkButton ID="LinkButton6" runat="server">Наши партнеры и участники проектов</asp:LinkButton>
+                    </td>
+                    <td class="auto-style30">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style29">&nbsp;</td>
+                    <td class="auto-style30">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style31" colspan="3">© 2018 Некоммерческое партнерство «Развитие духовно-нравственной личности «Второе дыхание». Все права защищены</td>
+                </tr>
+            </table>
+            
+        </form>
+            
+</body>
+</html>
